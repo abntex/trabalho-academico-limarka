@@ -1,0 +1,11 @@
+% ---
+% Agradecimentos
+% ---
+$if(agradecimentos)$
+\begin{agradecimentos}
+
+$agradecimentos$
+
+\end{agradecimentos}
+% ---
+$endif$
