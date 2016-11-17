@@ -4,8 +4,9 @@ Introdução do trabalho.[^intro]
 
 [^intro]: Exemplo de nota de rodapé.
 
-
 # Referencial teórico
+
+Cada capítulo inicia automaticamente em página impar (em conformidade com as Normas).
 
 ## Como citar e referenciar
 
@@ -23,20 +24,25 @@ conteúdos.
 
 ## Como inserir imagens
 
-As imagens precisam ser inseridas utilizando código em latex, pois o
-markdown não oferece suporte a inserir as fontes das imagens. Veja um exemplo:
+As imagens precisam ser inseridas utilizando código em latex, utilize o comando `limarka fig` com esse proprósito. 
 
+Por exemplo, a Figura \ref{fig:passaro} mostra um pássaro que possui as cores da bandeira do Brasil. Consulte a documentações do limarka para aprender como utilizar o comando.
+
+<!--
+Para referenciar essa figura no texto utilize: Figura \ref{fig:passaro} 
+-->
 \begin{figure}[htbp]
-\caption{\label{fig_bandeira}Pássaro com as cores da bandeira do Brasil}
+\caption{\label{fig:passaro}Pássaro com as cores da bandeira do Brasil}
 \begin{center}
-\includegraphics[width=0.85\textwidth]{imagens/passaro.jpg}
+\includegraphics[width=0.4\textwidth]{imagens/passaro.jpg}
 \end{center}
-\legend{Fonte: \citeonline{limarka}}.
+\legend{Fonte: \citeonline{limarka}}
 \end{figure}
 
-Ajuste o valor de "width" para redimencionar a figura.
 
 ## Tabelas latex
+
+Consulte as documentações do limarka e o abntex2 para criaação de tabelas em conformidades com as Normas da ABNT.
 
 Utilize código Latex para criar as tabelas.
 
