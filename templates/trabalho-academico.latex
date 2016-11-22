@@ -238,24 +238,29 @@ $endif$}%% fim do preambulo
 \imprimircapa
 % ---
 
-%%
-%% Elementos pré-textuais serão incluíndos aqui.
-%%
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
 $for(include-before)$
 $include-before$
 
 $endfor$
 
-%%
-%% Texto será incluído aqui
-%%
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
 $body$
 
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
 
-
-%%
-%% Elementos pós-textuais serão incluíndos aqui.
-%%
 $for(include-after)$
 $include-after$
 
@@ -263,4 +268,3 @@ $endfor$
 
 
 \end{document}
-
