@@ -210,6 +210,16 @@ $endif$}%% fim do preambulo
 %\floatsetup[figure]{capposition=top}
 
 
+% ---
+% BUG: Imagens e tabelas apareciam no meio da página em branco 
+% https://github.com/abntex/trabalho-academico-limarka/issues/1
+% O código a seguir posta imagens ou tabelas em página em branco no topo, em vez do meio (comportamento padrão)
+\makeatletter
+\setlength{\@fptop}{5pt} % Set distance from top of page to first float
+\makeatother
+% ---
+
+
 %%
 %% Esse modelo é responsável pela impressão dos seguintes elementos:
 %% Capa, Folha de rosto e Ficha catalográfica.

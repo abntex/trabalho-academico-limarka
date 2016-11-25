@@ -1,80 +1,22 @@
-# Introdução {#indroducao}
+# Introdução
 
-Introdução do trabalho.[^intro]
+## Motivação
 
-[^intro]: Exemplo de nota de rodapé.
+## Objetivos
 
-# Referencial teórico
+### Objetivo geral
 
-Cada capítulo inicia automaticamente em página impar (em conformidade com as Normas).
+Apresentação do objetivo geral.
 
-## Como citar e referenciar
+### Objetivos específicos
 
-O arquivo de referências é configurado em "configuracao.pdf", utilize-o
-para gerenciar suas referências.
-
-Veja um exemplo de citação e referenciação a seguir:
-
-> Alguém falou algo bem bonito aqui, mas não esquecer que para fazer
-> uma citação desta forma é necessário ter no mínimo três linhas de
-> acordo com a ABNT \cite{abntex2cite}.
-
-Consulte \citeonline{abntex2cite} para conhecer como referenciar os
-conteúdos.
-
-## Como inserir imagens
-
-As imagens precisam ser inseridas utilizando código em latex, utilize o comando `limarka fig` com esse proprósito. 
-
-Por exemplo, a Figura \ref{fig:passaro} mostra um pássaro que possui as cores da bandeira do Brasil. Consulte a documentações do limarka para aprender como utilizar o comando.
+- objetivo 1
+- objetivo 2
+- objetivo 3
 
 <!--
-Para referenciar essa figura no texto utilize: Figura \ref{fig:passaro} 
--->
-\begin{figure}[htbp]
-\caption{\label{fig:passaro}Pássaro com as cores da bandeira do Brasil}
-\begin{center}
-\includegraphics[width=0.4\textwidth]{imagens/passaro.jpg}
-\end{center}
-\legend{Fonte: \citeonline{limarka}}
-\end{figure}
 
-
-## Tabelas latex
-
-Consulte as documentações do limarka e o abntex2 para criaação de tabelas em conformidades com as Normas da ABNT.
-
-Utilize código Latex para criar as tabelas.
-
-\begin{table}[htbp]
-\IBGEtab{%
-  \caption{Cronograma da pesquisa}%
-  \label{tabela-ibge}
-}{%
-  \begin{tabular}{ccccc}
-  \toprule
-   Etapa & Set & Out & Nov & Dez \\
-  \midrule \midrule
-   Conclusão da implementação da ferramenta & X \\
-  \midrule 
-	Publicação da Ferramenta e convite para experimentos on-line &  & X \\
-  \midrule 
-	Condução de experimentos controlados &  & X \\
-  \midrule 
-	Análise dos resultados dos experimentos &  & X & X \\
-  \midrule 
-	Escrita da dissertação & X & X & X \\
-  \midrule 
-	Experimento realístico & X & X  \\
-  \midrule 
-	Defesa da dissertação &  &  &  & X \\
-
-\bottomrule
-\end{tabular}%
-}{%
-  \fonte{Autor}%
-  }
-\end{table}
+# Referencial teórico
 
 # Resultados
 
@@ -83,3 +25,51 @@ Resultados aqui.
 # Conclusão
 
 Conclusão do trabalho.
+
+-->
+
+# Como utilizar recursos do limarka
+
+**Consulte o wiki do projeto**: https://github.com/abntex/limarka/wiki
+
+Cada capítulo inicia automaticamente em página ímpar (em conformidade com as Normas). Por isso que existem várias páginas em branco nesse documento.
+
+## Como citar e referenciar
+
+O arquivo de referências é configurado em "configuracao.pdf", utilize-o
+para gerenciar suas referências.
+
+Veja um exemplo de citação direta e referenciação a seguir:
+
+> A ‘norma’ 6023:2000 (2) é complicada e cheia de inconsistências. Jamais será
+possível gerar um estilo bibtex totalmente consistente com a ‘norma’, até porque
+nem a ‘norma’ é compatível com ela mesma. Um bom estilo bibliográfico deve
+ter uma linha lógica para formatação de referências. Assim, com alguns poucos
+exemplos, qualquer pessoa poderia deduzir os casos omissos. Nesse sentido, a
+‘norma’ 6023 trafega pela contra-mão. É quase impossível deduzir sua linha lógica.
+O problema mais grave, no entanto, fica pela maneira de organizar nomes. A ABNT
+quebrou o sobrenome em duas partes. Normalmente se fala apenas em “*last name*”,
+mas agora temos o “*last last name*” graças à ABNT. \cite[p. 5]{abntex2cite}.
+
+Consulte o documento \citeonline{abntex2cite} para conhecer como referenciar os
+conteúdos.
+
+## Como inserir imagens
+
+As imagens precisam ser inseridas utilizando código em latex, utilize o comando `limarka fig -i` com esse propósito. 
+
+Por exemplo, a Figura \ref{fig:passaro} mostra um pássaro que possui as cores da bandeira do Brasil. Consulte a documentações do limarka para aprender como utilizar o comando.
+
+<!--
+Para referenciar essa figura no texto utilize: Figura \ref{fig:passaro} 
+-->
+\begin{figure}[htb]
+\caption{\label{fig:passaro}Pássaro com as cores da bandeira do Brasil}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{imagens/passaro.jpg}
+\end{center}
+\legend{Fonte: \citeonline{limarka}}
+\end{figure}
+
+As imagens são inseridas o mais próximo possível do texto que as referenciam.
+
