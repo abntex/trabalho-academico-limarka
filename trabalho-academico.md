@@ -14,18 +14,9 @@ Apresentação do objetivo geral.
 - objetivo 2
 - objetivo 3
 
-<!--
-
-# Referencial teórico
-
-# Resultados
-
-Resultados aqui.
-
-# Conclusão
-
-Conclusão do trabalho.
-
+<!-- 
+Isto é um comentário, mesma sintaxe do HTML. Para conhecer a sintaxe 
+do limarka consulte: https://github.com/abntex/limarka/wiki/Sintaxe 
 -->
 
 # Como utilizar recursos do limarka
