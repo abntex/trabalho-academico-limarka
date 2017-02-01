@@ -10,3 +10,19 @@ $else$
 % Lista de ilustrações (opcional): não utilizando.
 % ---
 $endif$
+
+
+$if(lista_ilustracoes)$
+% ---
+% inserir lista de quadros
+% ---
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
+% ---
+$else$
+% ---
+% Lista de quadros (opcional): não utilizando.
+% ---
+$endif$
+
