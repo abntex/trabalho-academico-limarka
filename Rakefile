@@ -7,7 +7,7 @@ require 'github_changelog_generator/task'
 
 task :default => []
 
-VERSION="v0.3.0"
+VERSION="v0.3.1"
 
 GitHubChangelogGenerator::RakeTask.new :changelog do |c|
   c.future_release = VERSION
@@ -18,8 +18,10 @@ GitHubChangelogGenerator::RakeTask.new :changelog do |c|
 end
 
 desc "Gera versão #{VERSION}"
-task :release do
+task :release => [:clean] do
+  system "limarka"
   system "git tag -a #{VERSION} -m \"Gerando versão #{VERSION}\""
+  system "git push && git push --tags"
 end
 
 PREAMBULO="templates/preambulo.tex"
