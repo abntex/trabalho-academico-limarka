@@ -47,9 +47,7 @@ conteúdos.
 
 ## Como inserir imagens
 
-As imagens precisam ser inseridas utilizando código em latex, utilize o comando `limarka fig -i` com esse propósito. 
-
-Por exemplo, a Figura \ref{passaro} mostra um pássaro que possui as cores da bandeira do Brasil. Consulte a documentações do limarka para aprender como utilizar o comando.
+Por exemplo, a Figura \ref{passaro} mostra um pássaro que possui as cores da bandeira do Brasil. 
 
 <!--
 Para referenciar essa figura no texto utilize: Figura \ref{passaro} ou \autoref{passaro}
@@ -60,4 +58,3 @@ Para referenciar essa figura no texto utilize: Figura \ref{passaro} ou \autoref{
 Fonte: \citeonline{limarka}
 
 As imagens são inseridas o mais próximo possível do texto que as referenciam.
-
