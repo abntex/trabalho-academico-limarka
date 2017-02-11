@@ -4,6 +4,7 @@ O repositório [abntex/trabalho-academico-limarka](https://github.com/abntex/tra
 
 <!-- Caso você esteja realizando uma personalização desse modelo, favor manter a linha acima inalterada para padronizar divulgação. -->
 
+Este modelo necessita a versão do limarka >= `v0.7.1`.
 
 - Veja o PDF resultante da compilação desse trabalho em [releases](https://github.com/abntex/trabalho-academico-limarka/releases/latest)
 
@@ -13,6 +14,6 @@ Para compilar o projeto digite:
 
 # Modelos personalizados para instituições
 
-Os modelos personalizados devem ser disponibilizados no github através de forks do repositório oficial. Depois de realizar um fork, renomear o projeto adiconando um préfixo com a sigla/nome da instituição, por exemplo: `ufpb-trabalho-academico-limarka`.
+Os modelos personalizados devem ser disponibilizados [no github](https://github.com/limarka). Crie o projeto adiconando um préfixo com a sigla/nome da instituição, por exemplo: `ufpb-trabalho-academico-limarka`.
 
-- Consulte as personalizações através dos [forks realizados](https://github.com/abntex/trabalho-academico-limarka/network/members).
+- Consulte [as personalizações existentes](https://github.com/limarka).
