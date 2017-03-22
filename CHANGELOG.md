@@ -1,12 +1,12 @@
 # Change Log
 
-## [v0.4.0](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.0) (2017-03-18)
+## [v0.4.0](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.0) (2017-03-19)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.3.1...v0.4.0)
 
 **Melhorias implementadas:**
 
 - Inclusão de Guardfile para compilação automática [\#9](https://github.com/abntex/trabalho-academico-limarka/issues/9)
-- Inclusão de quadros [\#2](https://github.com/abntex/trabalho-academico-limarka/issues/2)
+- Possibilita incluir Quadros [\#2](https://github.com/abntex/trabalho-academico-limarka/issues/2)
 
 ## [v0.3.1](https://github.com/abntex/trabalho-academico-limarka/tree/v0.3.1) (2017-02-11)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.3.0...v0.3.1)

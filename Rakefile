@@ -7,7 +7,7 @@ require 'github_changelog_generator/task'
 
 task :default => []
 
-VERSION="v0.4.0"
+VERSION="v0.4.1"
 
 GitHubChangelogGenerator::RakeTask.new :changelog do |c|
   c.future_release = VERSION
