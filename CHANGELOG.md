@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.4.1](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.1) (2017-03-22)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.0...v0.4.1)
+
+**Melhorias implementadas:**
+
+- Possibilita incluir Quadros com sintaxe simplificada com pandoc\_abnt [\#12](https://github.com/abntex/trabalho-academico-limarka/issues/12)
+
+**Bugs corrigidos:**
+
+- Arquivos temporários estão iniciando o guard [\#10](https://github.com/abntex/trabalho-academico-limarka/issues/10)
+
 ## [v0.4.0](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.0) (2017-03-19)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.3.1...v0.4.0)
 
