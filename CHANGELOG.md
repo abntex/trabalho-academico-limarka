@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.2](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.2) (2017-04-05)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.1...v0.4.2)
+
+**Bugs corrigidos:**
+
+- Ficha catalográfica não está sendo impressa no verso da folha de rosto [\#14](https://github.com/abntex/trabalho-academico-limarka/issues/14)
+
 ## [v0.4.1](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.1) (2017-03-22)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.0...v0.4.1)
 
