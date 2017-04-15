@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.3](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.3) (2017-04-15)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.2...v0.4.3)
+
+**Melhorias implementadas:**
+
+- Facilitar customização de códigos Latex [\#15](https://github.com/abntex/trabalho-academico-limarka/issues/15)
+
 ## [v0.4.2](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.2) (2017-04-05)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.1...v0.4.2)
 
