@@ -238,6 +238,11 @@ $endif$}%% fim do preambulo
 \makeatother
 % ---
 
+% ---
+% CUSTOMIZAÇÕES DO USUÁRIO
+% ---
+
+\usepackage{latexcustomizacao} % importa customições do usuário.
 
 %%
 %% Esse modelo é responsável pela impressão dos seguintes elementos:
