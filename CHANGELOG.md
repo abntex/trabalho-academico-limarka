@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.4](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.4) (2017-04-21)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.3...v0.4.4)
+
+**Melhorias implementadas:**
+
+- Facilitar a inclusão de novas listas [\#16](https://github.com/abntex/trabalho-academico-limarka/issues/16)
+
 ## [v0.4.3](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.3) (2017-04-15)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.2...v0.4.3)
 
