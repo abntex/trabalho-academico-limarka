@@ -26,3 +26,5 @@ $else$
 % ---
 $endif$
 
+% Carrega listas definidas pelo usuário em `latexcustomizacao.sty`
+\listasdousuario

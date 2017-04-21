@@ -239,6 +239,13 @@ $endif$}%% fim do preambulo
 % ---
 
 % ---
+% Usado pelo limarka como hook para criação de novas listas.
+% https://github.com/abntex/trabalho-academico-limarka/issues/16
+%
+\newcommand{\listasdousuario}{}
+
+
+% ---
 % CUSTOMIZAÇÕES DO USUÁRIO
 % ---
 
