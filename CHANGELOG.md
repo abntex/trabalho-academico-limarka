@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.5](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.5) (2017-05-14)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.4...v0.4.5)
+
+**Melhorias implementadas:**
+
+- Cabeçalho contendo apenas a paginação [\#17](https://github.com/abntex/trabalho-academico-limarka/issues/17)
+
 ## [v0.4.4](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.4) (2017-04-21)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.3...v0.4.4)
 
