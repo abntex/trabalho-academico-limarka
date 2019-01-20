@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.5.0](https://github.com/abntex/trabalho-academico-limarka/tree/v0.5.0) (2019-01-20)
+[Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.5...v0.5.0)
+
+**Melhorias implementadas:**
+
+- Possibilitar criar imagem docker customizada [\#22](https://github.com/abntex/trabalho-academico-limarka/issues/22)
+- Tornar a cor dos links preta no pdf [\#18](https://github.com/abntex/trabalho-academico-limarka/issues/18)
+
 ## [v0.4.5](https://github.com/abntex/trabalho-academico-limarka/tree/v0.4.5) (2017-05-14)
 [Full Changelog](https://github.com/abntex/trabalho-academico-limarka/compare/v0.4.4...v0.4.5)
 

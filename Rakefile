@@ -1,13 +1,11 @@
 # coding: utf-8
-require "rspec/core/rake_task"
 require 'rake/clean'
-#require 'pdf_forms'
 require 'github_changelog_generator/task'
 
 
 task :default => []
 
-VERSION="v0.4.5"
+VERSION="v0.5.0"
 
 GitHubChangelogGenerator::RakeTask.new :changelog do |c|
   c.future_release = VERSION
