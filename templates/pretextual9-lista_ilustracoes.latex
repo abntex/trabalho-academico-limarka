@@ -12,7 +12,7 @@ $else$
 $endif$
 
 
-$if(lista_ilustracoes)$
+$if(lista_quadros)$
 % ---
 % inserir lista de quadros
 % ---
