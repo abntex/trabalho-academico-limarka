@@ -276,7 +276,18 @@ $endif$}%% fim do preambulo
 % ---
 % Capa
 % ---
+$if(capa_pdf_caminho)$
+
+\begin{capa}
+\includepdf{$capa_pdf_caminho$}
+\end{capa}
+
+
+$else$
+
 \imprimircapa
+
+$endif$
 % ---
 
 % ----------------------------------------------------------
