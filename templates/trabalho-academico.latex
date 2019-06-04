@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%5
 %% abtex2-modelo-trabalho-academico.tex, v<VERSION> laurocesar
-%% Copyright 2012-<COPYRIGHT_YEAR> by abnTeX2 group at http://www.abntex.net.br/ 
+%% Copyright 2012-<COPYRIGHT_YEAR> by abnTeX2 group at http://www.abntex.net.br/
 %%
 %% This work may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3
@@ -11,9 +11,9 @@
 %% version 2005/12/01 or later.
 %%
 %% This work has the LPPL maintenance status `maintained'.
-%% 
+%%
 %% The Current Maintainer of this work is the abnTeX2 team, led
-%% by Lauro César Araujo. Further information are available on 
+%% by Lauro César Araujo. Further information are available on
 %% http://www.abntex.net.br/
 %%
 %% This work consists of the files abntex2-modelo-trabalho-academico.tex,
@@ -23,7 +23,7 @@
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
 % abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
-% mestrado e trabalhos monograficos em geral) em conformidade com 
+% mestrado e trabalhos monograficos em geral) em conformidade com
 % ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
 % Apresentacao
 % ------------------------------------------------------------------------
@@ -34,7 +34,7 @@
 	12pt,				% tamanho da fonte
 %  openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
 	twoside,			% para impressão em recto e verso. Oposto a oneside
-	a4paper,			% tamanho do papel. 
+	a4paper,			% tamanho do papel.
 	% -- opções da classe abntex2 --
 	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
 	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
@@ -48,9 +48,9 @@
 	]{abntex2}
 
 % ---
-% Pacotes básicos 
+% Pacotes básicos
 % ---
-\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage{lmodern}			% Usa a fonte Latin Modern
 \usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
 \usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
 \usepackage{lastpage}			% Usado pela Ficha catalográfica
@@ -59,7 +59,7 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 % ---
-		
+
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -72,9 +72,9 @@
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage[$referencias_sistema$]{abntex2cite}	% Citações padrão ABNT
 
-% --- 
+% ---
 % CONFIGURAÇÕES DE PACOTES
-% --- 
+% ---
 
 % ---
 % Configurações do pacote backref
@@ -120,7 +120,7 @@ $endif$
 }
 \tipotrabalho{$tipo_do_trabalho$}
 
-% O preambulo deve conter o tipo do trabalho, o objetivo (propósito), 
+% O preambulo deve conter o tipo do trabalho, o objetivo (propósito),
 % o nome da instituição e a área de concentração.
 % Esse texto irá compor a Folha de Rosto e Folha de Aprovação.
 \preambulo{
@@ -161,11 +161,11 @@ $endif$}%% fim do preambulo
 \makeatletter
 \hypersetup{
      	%pagebackref=true,
-		pdftitle={\@title}, 
+		pdftitle={\@title},
 		pdfauthor={\@author},
     	pdfsubject={\imprimirpreambulo},
 	    pdfcreator={LaTeX with abnTeX2 and Limarka},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}{limarka}, 
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}{limarka},
 		colorlinks=false,       		% false: boxed links; true: colored links
     	linkcolor=black,          	% color of internal links
     	citecolor=black,        		% color of links to bibliography
@@ -174,7 +174,7 @@ $endif$}%% fim do preambulo
 		bookmarksdepth=4
 }
 \makeatother
-% --- 
+% ---
 
 % ---
 % Possibilita criação de Quadros e Lista de quadros.
@@ -190,14 +190,14 @@ $endif$}%% fim do preambulo
 % configurações para atender às regras da ABNT
 \setfloatadjustment{quadro}{\centering}
 \counterwithout{quadro}{chapter}
-\renewcommand{\cftquadroname}{\quadroname\space} 
+\renewcommand{\cftquadroname}{\quadroname\space}
 \renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
 % ---
 
 
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
+% ---
+% Espaçamentos entre linhas e parágrafos
+% ---
 
 % O tamanho do parágrafo é dado por:
 \setlength{\parindent}{1.3cm}
@@ -230,7 +230,7 @@ $endif$}%% fim do preambulo
 
 
 % ---
-% BUG: Imagens e tabelas apareciam no meio da página em branco 
+% BUG: Imagens e tabelas apareciam no meio da página em branco
 % https://github.com/abntex/trabalho-academico-limarka/issues/1
 % O código a seguir posta imagens ou tabelas em página em branco no topo, em vez do meio (comportamento padrão)
 \makeatletter
@@ -266,7 +266,7 @@ $endif$}%% fim do preambulo
 \selectlanguage{brazil}
 
 % Retira espaço extra obsoleto entre as frases.
-\frenchspacing 
+\frenchspacing
 
 % ----------------------------------------------------------
 % ELEMENTOS PRÉ-TEXTUAIS
@@ -274,17 +274,17 @@ $endif$}%% fim do preambulo
 % \pretextual
 
 % ---
-% Capa
+% Capa $capa_pdf_caminho$
 % ---
 $if(capa_pdf_caminho)$
-
+% Incluindo capa personalizada de pdf
 \begin{capa}
 \includepdf{$capa_pdf_caminho$}
 \end{capa}
 
 
 $else$
-
+% Gerando capa abnTeX2
 \imprimircapa
 
 $endif$
@@ -304,7 +304,7 @@ $endfor$
 % ELEMENTOS TEXTUAIS
 % ----------------------------------------------------------
 \textual
-\pagestyle{simple}                  % #17 Cabeçalho apenas com 
+\pagestyle{simple}                  % #17 Cabeçalho apenas com
 \aliaspagestyle{chapter}{simple}    % a numeração das páginas
 
 
