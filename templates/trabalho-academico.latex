@@ -244,9 +244,6 @@ $endif$}%% fim do preambulo
 %
 \newcommand{\listasdousuario}{}
 
-% Usado para tentar otimizar a velocidade dos testes:
-\special{dvipdfmx:config z 0}
-
 % ---
 % CUSTOMIZAÇÕES DO USUÁRIO
 % ---
