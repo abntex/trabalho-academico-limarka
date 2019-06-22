@@ -244,6 +244,8 @@ $endif$}%% fim do preambulo
 %
 \newcommand{\listasdousuario}{}
 
+% Usado para tentar otimizar a velocidade dos testes:
+\special{dvipdfmx:config z 0}
 
 % ---
 % CUSTOMIZAÇÕES DO USUÁRIO
@@ -255,6 +257,7 @@ $endif$}%% fim do preambulo
 %% Esse modelo é responsável pela impressão dos seguintes elementos:
 %% Capa, Folha de rosto e Ficha catalográfica.
 
+\special{dvipdfmx:config z 0}
 
 % ----
 % Início do documento
