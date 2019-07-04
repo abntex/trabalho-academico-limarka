@@ -245,10 +245,9 @@ $endif$}%% fim do preambulo
 \newcommand{\listasdousuario}{}
 
 % ---
-% CUSTOMIZAÇÕES DO USUÁRIO
+% CUSTOMIZAÇÕES DO USUÁRIO (somente se existir arquivo latexcustomizacao.sty)
 % ---
-
-\usepackage{latexcustomizacao} % importa customições do usuário.
+\IfFileExists{latexcustomizacao.sty}{\usepackage{latexcustomizacao}}{}
 
 %%
 %% Esse modelo é responsável pela impressão dos seguintes elementos:
