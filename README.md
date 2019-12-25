@@ -6,7 +6,7 @@ O repositório [abntex/trabalho-academico-limarka](https://github.com/abntex/tra
 
 Este modelo necessita a versão do limarka >= `v0.7.1`.
 
-- Veja o PDF resultante da compilação desse trabalho em [releases](https://github.com/abntex/trabalho-academico-limarka/releases/latest)
+- Veja o PDF resultante da compilação desse trabalho em [releases](https://github.com/HBM2018/trabalho-academico-limarka/releases/latest)
 
 Para compilar o projeto digite:
 
