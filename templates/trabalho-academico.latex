@@ -224,7 +224,7 @@ $endif$}%% fim do preambulo
 % Para incluir páginas PDF (ficha catalografica e folha de aprovação)
 \usepackage[dvipsnames]{xcolor} % http://tex.stackexchange.com/questions/124636/package-xcolor-error-undefined-colors-maroon-royal-blue-when-master-has-pdf
 \usepackage{pdfpages}
-\usepackage{longtable,ltcaption} % para as tabelas pandoc e quadros ABNT
+\usepackage{longtable,booktabs} % para as tabelas pandoc e quadros ABNT
 %\usepackage{floatrow}
 %\floatsetup[figure]{capposition=top}
 
