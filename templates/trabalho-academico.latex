@@ -193,6 +193,12 @@ $endif$}%% fim do preambulo
 \counterwithout{quadro}{chapter}
 \renewcommand{\cftquadroname}{\quadroname\space}
 \renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
+
+% Para melhorar o visual do quadro
+\usepackage{boldline} 
+\def\toprule{\hlineB{3}} % primeira linha mais gorda
+\def\midrule{\hline}
+\def\bottomrule{\hlineB{3}} % última linha mais gorda
 % ---
 
 
@@ -225,7 +231,7 @@ $endif$}%% fim do preambulo
 % Para incluir páginas PDF (ficha catalografica e folha de aprovação)
 \usepackage[dvipsnames]{xcolor} % http://tex.stackexchange.com/questions/124636/package-xcolor-error-undefined-colors-maroon-royal-blue-when-master-has-pdf
 \usepackage{pdfpages}
-\usepackage{longtable,booktabs} % para as tabelas pandoc e quadros ABNT
+\usepackage{longtable,ltcaption,booktabs} % para as tabelas pandoc e quadros ABNT
 %\usepackage{floatrow}
 %\floatsetup[figure]{capposition=top}
 
