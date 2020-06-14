@@ -50,17 +50,10 @@
 % ---
 % Pacotes básicos
 % ---
-\usepackage{ifxetex}
-\ifxetex
-  \usepackage{fontspec}
-  \defaultfontfeatures{Ligatures={TeX}}
-  \setmainfont{Times New Roman}
-\else % Mantém o modelo padrão do AbnTeX2
-  \usepackage{times}			% Usa fonte times
-  \usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-  \usepackage[utf8]{inputenc}	% Codificacao do documento (conversão automática dos acentos)
-\fi
-\renewcommand{\ABNTEXchapterfont}{\normalfont}
+\usepackage{times}			    % Usa fonte times
+\renewcommand{\ABNTEXchapterfont}{\normalfont} % para aplicar a fonte escolhida em tudo
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
 \usepackage{lastpage}			% Usado pela Ficha catalográfica
 \usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
 \usepackage{color}				% Controle das cores
