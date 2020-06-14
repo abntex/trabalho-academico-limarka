@@ -33,7 +33,7 @@
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
 %  openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
-	twoside,			% para impressão em recto e verso. Oposto a oneside
+	oneside,			% para impressão em recto e verso use twoside
 	a4paper,			% tamanho do papel.
 	% -- opções da classe abntex2 --
 	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
@@ -232,7 +232,7 @@ $endif$}%% fim do preambulo
 % Para incluir páginas PDF (ficha catalografica e folha de aprovação)
 \usepackage[dvipsnames]{xcolor} % http://tex.stackexchange.com/questions/124636/package-xcolor-error-undefined-colors-maroon-royal-blue-when-master-has-pdf
 \usepackage{pdfpages}
-\usepackage{longtable,ltcaption} % para as tabelas pandoc e quadros ABNT
+\usepackage{longtable,booktabs} % para as tabelas pandoc e quadros ABNT
 %\usepackage{floatrow}
 %\floatsetup[figure]{capposition=top}
 
@@ -253,10 +253,9 @@ $endif$}%% fim do preambulo
 \newcommand{\listasdousuario}{}
 
 % ---
-% CUSTOMIZAÇÕES DO USUÁRIO
+% CUSTOMIZAÇÕES DO USUÁRIO (somente se existir arquivo latexcustomizacao.sty)
 % ---
-
-\usepackage{latexcustomizacao} % importa customições do usuário.
+\IfFileExists{latexcustomizacao.sty}{\usepackage{latexcustomizacao}}{}
 
 %%
 %% Esse modelo é responsável pela impressão dos seguintes elementos:
