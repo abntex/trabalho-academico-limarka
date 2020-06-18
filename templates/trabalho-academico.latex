@@ -194,11 +194,6 @@ $endif$}%% fim do preambulo
 \renewcommand{\cftquadroname}{\quadroname\space}
 \renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
 
-% Para melhorar o visual do quadro
-\usepackage{boldline} 
-\def\toprule{\hlineB{3}} % primeira linha mais gorda
-\def\midrule{\hline}
-\def\bottomrule{\hlineB{3}} % última linha mais gorda
 % ---
 
 
@@ -234,6 +229,13 @@ $endif$}%% fim do preambulo
 \usepackage{longtable,ltcaption,booktabs} % para as tabelas pandoc e quadros ABNT
 %\usepackage{floatrow}
 %\floatsetup[figure]{capposition=top}
+
+% Para melhorar o visual do quadro
+\usepackage{boldline} 
+\def\toprule{\hlineB{3}} % primeira linha mais gorda
+\def\midrule{\hline}
+\def\bottomrule{\hlineB{3}} % última linha mais gorda
+
 
 
 % ---
