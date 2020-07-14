@@ -1,0 +1,8 @@
+curve(dgamma(x,1,1/2),0,20,ylab="f(x)")
+curve(dgamma(x,2,1/2),0,20,add=T)
+curve(dgamma(x,9,2),0,20,add=T)
+curve(dgamma(x,3,1/2),0,20,add=T)
+text(2,0.4,"(1;0,5)")
+text(0.9,0.2,"(2;0,5)")
+text(7,0.2,"(9;2)")
+ text(10,0.08,"(3;0,5)")

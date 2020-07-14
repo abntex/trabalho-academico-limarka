@@ -14,9 +14,9 @@ Apresentação do objetivo geral.
 - objetivo 2
 - objetivo 3
 
-<!-- 
-Isto é um comentário, mesma sintaxe do HTML. Para conhecer a sintaxe 
-do limarka consulte: https://github.com/abntex/limarka/wiki/Sintaxe 
+<!--
+Isto é um comentário, mesma sintaxe do HTML. Para conhecer a sintaxe
+do limarka consulte: https://github.com/abntex/limarka/wiki/Sintaxe
 -->
 
 # Como utilizar recursos do limarka
@@ -47,7 +47,7 @@ conteúdos.
 
 ## Como inserir imagens
 
-Por exemplo, a Figura \ref{passaro} mostra um pássaro que possui as cores da bandeira do Brasil. 
+Por exemplo, a Figura \ref{passaro} mostra um pássaro que possui as cores da bandeira do Brasil.
 
 <!--
 Para referenciar essa figura no texto utilize: Figura \ref{passaro} ou \autoref{passaro}
@@ -58,3 +58,33 @@ Para referenciar essa figura no texto utilize: Figura \ref{passaro} ou \autoref{
 Fonte: \citeonline{limarka}
 
 As imagens são inseridas o mais próximo possível do texto que as referenciam.
+
+# R
+
+## Como inserir imagens do R
+
+A Figura \ref{histograma} é um histograma.
+
+![Exemplo de histograma](imagens/R/historgrama.pdf){#histograma escala=0.4}
+
+Fonte: Autor.
+
+Para gerar os códigos R, digite `rake r` no terminal. Isso irá compilar todas os códigos dentro da pasta imagens, com extensão `.R` para `.pdf`, em seguida poderá incluir normalmente como uma imagem.
+
+**NOTA**: Certifique-se de ter instalado todos os pacotes R necessários para compilar sua imagem.
+
+Também é recomendado a utilização do `guard` para geração automática quando houver alterações.
+
+![Exemplo de geração de gráfico R](imagens/R/pizza-grafico.pdf){#pizza escala=0.4}
+
+Fonte: Autor.
+
+
+## Tabelas
+
+Configurações de figura
+
+|configuração|descrição|
+|---|---|
+|fig.align|	Alinhamento de graficos e figura no documento final: 'left', 'right', or 'center'|
+|out.height <br> out.width	|Escala de fargura e altura da figura no documento final. Pode ser "%", "px", "cm"|
