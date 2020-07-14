@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-group :development do
-  gem 'rake'
-  gem 'github_changelog_generator'
-end
+gem 'rake'
+gem 'guard-rake'
+gem 'guard-shell'
+
