@@ -79,6 +79,13 @@ Também é recomendado a utilização do `guard` para geração automática quan
 
 Fonte: Autor.
 
+# Dois gráficos R juntos
+
+![Exemplo de geração dois gráficos R, lado a lado](imagens/R/dois-graficos.pdf){#doisgraficos escala=0.4}
+
+Fonte: Autora.
+
+
 
 ## Tabelas
 
